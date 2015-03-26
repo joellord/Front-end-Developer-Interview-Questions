@@ -49,10 +49,14 @@
 * Describe the difference between cookies, sessionStorage and localStorage.  
 
 ## JS-Specific Questions
+### Which JavaScript libraries have you used? 
+There is no right or wrong answer here but it should provide some sense of how up to date or advanced the JS skills of this candidate are.
 
-* Which JavaScript libraries have you used? 
-* How is JavaScript different from Java? 
-* What are `undefined` and `undeclared` variables? 
+### How is JavaScript different from Java? 
+
+### What are `undefined` and `undeclared` variables? 
+An `undefined` variable has been declared using `var` but has not been assigned a value yet.  An `undeclared` variable has not been created yet and accessing it in a non strict mode will actually create it as a global (a `window` object property in a browser).
+
 * What is a closure, and how/why would you use one? 
 	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
 * What's a typical use case for anonymous functions? 
